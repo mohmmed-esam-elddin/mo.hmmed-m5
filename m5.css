@@ -1,0 +1,181 @@
+body {
+    font: 16px 'Arial', sans-serif;
+    line-height: 1.5;
+    background: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #01520c, #049c25);
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 8px 0;
+}
+
+header p {
+    font-size: 19px;
+    margin: 8px 0;
+}
+
+section {
+    background: white;
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0a3d62;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d35400;
+}
+
+ul, ol { 
+    padding-right: 24px; 
+}
+
+li { 
+    margin-bottom: 8px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    border-radius: 8px;
+}
+
+th, td { 
+    padding: 13px; 
+    text-align: center; 
+    
+}
+
+th { 
+    background: rgb(1, 78, 1); 
+    color: white; 
+}
+
+td { 
+    border: 1px solid #ddd; 
+}
+
+form {
+    padding: 24px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 19px;
+}
+
+
+button {
+    background: #01571d;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 4px;
+    display: block;
+    margin: 16px auto 0;
+
+    font-size: 16px;
+}
+
+button:hover { 
+    background: #1e5f8a; 
+}
+
+img, video, audio {
+    max-width: 100%;
+    display: block;
+    margin: 16px auto;
+    border-radius: 8px;
+}
+
+.form-group { 
+    margin-bottom: 16px; 
+}
+
+.audio { 
+    margin: 24px 0; 
+}
+
+h3 {
+    font-size: 20px;
+    margin: 16px 0 8px;
+}
+.hero-img {
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    border-left: 4px solid #d35400;
+    border-right: 4px solid #d35400;
+    background: #f9f9f9;
+    margin: 24px 0;
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header h1 {
+        font-size: 20px;
+    }
+    
+    header p {
+        font-size: 15px;
+    }
+    
+    section h2 {
+        font-size: 18px;
+    }
+    
+    th, td {
+        padding: 8px;
+        font-size: 13px;
+    }
+    
+    button {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    
+    .quote {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    input, select, textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
